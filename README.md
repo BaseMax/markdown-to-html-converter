@@ -28,12 +28,17 @@ A simple CLI tool for converting Markdown content to HTML, built with Node.js.
 ## Usage
 
 ```bash
-markdown-to-html [options]
+Usage:
+  markdown-to-html [options]
 
 Options:
   -i, --input <file>      Path to the input Markdown file (optional if using stdin)
   -o, --output <file>     Path to the output HTML file (optional)
   -h, --help              Show this help message
+
+Examples:
+  markdown-to-html -i input.md -o output.html
+  cat input.md | markdown-to-html
 ```
 
 ### Examples
