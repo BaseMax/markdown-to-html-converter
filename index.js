@@ -55,7 +55,7 @@ Examples:
         process.exit(1);
     }
 
-    const htmlContent = marked(markdownContent);
+    const htmlContent = marked.marked(markdownContent);
 
     if (outputFilePath) {
         try {
